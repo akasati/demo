@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/GitHub action token:latest 
+          tags: akasati02/simplewhale:latest 
           
       # Runs a single command using the runners shell
       - name: Run a one-line script
